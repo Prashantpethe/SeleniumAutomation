@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" allow-return-values="true">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testCases.CreateAccount">
+        <methods>
+          <include name="initialize"/>
+          <include name="addProductToCart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.CreateAccount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
